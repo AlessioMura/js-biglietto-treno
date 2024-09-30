@@ -7,3 +7,9 @@ let percent = 100;
 distance_km = prompt("Inserire i km che il treno percorre");
 const ticket_price = price_for_km * distance_km;
 alert(ticket_price + "€");
+
+const disc_over = (ticket_price / percent) * disc_over65;
+const disc_under = (ticket_price / percent) * disc_underage;
+
+const price_disc_over = ticket_price - disc_over;
+const price_disc_under = ticket_price - disc_under;
