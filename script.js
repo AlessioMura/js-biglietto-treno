@@ -13,3 +13,13 @@ const disc_under = (ticket_price / percent) * disc_underage;
 
 const price_disc_over = ticket_price - disc_over;
 const price_disc_under = ticket_price - disc_under;
+
+age = prompt("Inerire l'età");
+
+if (age < 18) {
+  alert(price_disc_under.toFixed(2) + "€");
+} else if (age >= 65) {
+  alert(price_disc_over.toFixed(2) + "€");
+} else {
+  alert(ticket_price.toFixed(2) + "€");
+}
